@@ -48,7 +48,7 @@ public class UserService {
         }
     }
     public void login(Scanner scanner, ArrayList<User> users, Menu menu, UserService userService, int select) {
-            System.out.println("Đăng Nhập");
+            System.out.println("=================Đăng Nhập================");
             while (true) {
                 System.out.print("Nhập username: ");
                 String username = scanner.nextLine();
